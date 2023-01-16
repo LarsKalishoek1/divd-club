@@ -1,0 +1,118 @@
+
+	body {
+  		background-color: #000;
+	     }
+	.img-container-block {
+	  text-align: center;
+	}
+	.img-container-inline {
+	  text-align: center;
+	  display: block;
+	}
+
+    .text-block {
+        padding-left: 25%;
+        padding-right: 25%;
+        text-align: center;
+        display: block;
+    }
+	
+	@import url(fonts/font-awesome.min.css);
+	/* raleway-regular - latin */
+	@font-face {
+	  font-family: 'Raleway';
+	  font-style: normal;
+	  font-weight: 400;
+	  src: url('fonts/raleway-v22-latin-regular.eot'); /* IE9 Compat Modes */
+	  src: local(''),
+	       url('fonts/raleway-v22-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+	       url('fonts/raleway-v22-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+	       url('fonts/raleway-v22-latin-regular.woff') format('woff'), /* Modern Browsers */
+	       url('fonts/raleway-v22-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+	       url('fonts/raleway-v22-latin-regular.svg#Raleway') format('svg'); /* Legacy iOS */
+	}
+
+    .text-block h2 {
+        font-size:24pt;
+        font-weight: bold;
+	    font-family: "Raleway";
+	    color: #fff952;
+    }
+
+	.text-block p {
+	    text-align: center;
+	    font-size: 18pt;
+	    font-family: "Raleway";
+	    color: white;
+	    top: 50%;
+        left: 50%;
+	}	
+
+	.list-block {
+	    border: 3px solid #fff952;
+	    border-radius:10%;
+        display: block;
+	}
+
+	.list-block li {
+	    text-align: center;
+	    font-size: 18pt;
+	    font-family: "Raleway";
+	    color: white;
+        margin-bottom: 5pt;	    
+	}
+
+	.list-block p {
+	    text-align: center;
+	    font-size: 18pt;
+	    font-family: "Raleway";
+	    color: white;
+        margin-bottom: 5pt;	    
+	}
+
+	ul {
+	  list-style: none;
+	  text-align: left;
+	}
+	
+	ul li:before {
+	  content: '✓';
+	}
+
+    a.button2{
+        display:inline-block;
+        padding:0.5em 3em;
+        border:0.16em solid #FFF952;
+        margin:0 0.3em 0.3em 0;
+        box-sizing: border-box;
+        text-decoration:none;
+        text-transform:uppercase;
+        font-family:'Roboto',sans-serif;
+        font-weight:400;
+        color:#FFF952;
+        text-align:center;
+        transition: all 0.15s;
+    }
+
+    a.button2:hover{
+        color:#FFFFFF;
+        border-color:#FFFFFF;
+    }
+    a.button2:active{
+        color:#FFFFFF;
+        border-color:#FFFFFF;
+    }
+    @media all and (max-width:30em){
+        a.button2{
+            display:block;
+            margin:0.4em auto;
+        }
+    }
+
+    a {
+        color:#FFF952;
+    }
+    
+    a:active {
+        color:#FFFFFF;
+    }
