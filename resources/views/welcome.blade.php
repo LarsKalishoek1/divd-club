@@ -16,16 +16,22 @@
   <meta property="og:url" content="https://DIVD.club">
   <meta property="og:description" content="DIVD.club">
 
-  <link rel="stylesheet" href="assetsstyle.css">
+  <link href="css/app.css" rel="stylesheet">
 
 </head>
 <body>
-  <br /><br /><br /><br /><br />
+  <div class="top-nav">
+    <a href="#C1">Home</a>
+    <a href="#news">News</a>
+    <a href="#C2">Contact</a>
+    <a href="#about">About</a>
+  </div>  
+  <br /><br /><br /><br />
   <div class="img-container-block">
     <img src="DIVD.club.logo.png"  alt="DIVD.club">
   </div>
   <br><br>
-  <div class="text-block">
+  <div class="text-block" id ="C1">
     <h2>Welkom!</h2>
     <p>Goed dat je er bent! De DIVD club is een plek waar kinderen en jongeren 
 	samen kunnen leren over computerbeveiliging, hacking, 
@@ -73,7 +79,96 @@
   </p>
   
  <p>Zie je iets wat technisch niet in orde of niet <a href="https://internet.nl/site/divd.club/1502532/">veilig</a> genoeg is op deze website dan kun je dat <a href="https://app.zerocopter.com/nl/rd/f9afbf32-ce59-48ed-96f2-ac4410595aa4">hier</a> melden.</p>
+  </div>
 
+  <div class="text-block" id="C2">
+  <h2>Aanmeldformulier</h2>
+  <p>Vul hieronder jouw persoonlijke gegevens in. Met deze gegevens schrijven we je in als deelnemer van DIVD.club. 
+    Verderop kun je eventueel<br> aanvullende contactgegevens van je ouder(s)/verzorger(s) invullen.</p>  
+  <p2>*Vereist</p2>
+  </div>
+
+  <div class="form-block">
+    <form method="post" action="#">
+
+      <div class="input-block">
+        <label for="first_name">Voornaam<span>*</span></label><br>
+        <input type="text" id="first_name" name="first_name" required="required">
+      </div>
+
+      <div class="input-block">
+        <label for="last_name">Achternaam<span>*</span></label><br>
+        <input type="text" id="last_name" name="last_name" required="required">
+      </div>
+
+      <div class="input-block">
+        <label for="adres">Adres<span>*</span></label><br>
+        <input type="text" id="adres" name="adres">
+      </div>
+
+      <div class="input-block">
+        <label for="postal_code">Postcode</label><br>
+        <input type="text" id="postal_code" name="postal_code">
+      </div>
+
+      <div class="input-block">
+        <label for="residence">Woonplaats</label><br>
+        <input type="text" id="residence" name="residence">
+      </div>
+      
+      <div class="input-block">
+        <label for="phone_number">Telefoonnummer<span>*</span></label><br>
+        <input type="tel" id="phone_number" name="phone_number" required="required">
+      </div>
+
+      <div class="input-block">
+        <label for="email">E-mail<span>*</span></label><br>
+        <input type="email" id="email" name="email" required="required">
+      </div>
+
+      <div class="input-block">
+        <label for="gender">Geslacht</label>
+        <table>
+          <tr>
+            <td><input type="radio" id="men" onClick="disable()" name="gender"></td>
+            <td><label for="men">Man</label></td>
+          </tr>
+          <tr>
+            <td><input type="radio" id="women" onClick="disable()" name="gender"></td>
+            <td><label for="woman">Vrouw</label></td>
+          </tr>
+          <tr>
+            <td><input type="radio" id="other" onClick="enable()" name="gender"></td>
+            <td><label for="other">Ik indentificeer mijzelf als...</label></td>
+            <td><input type="text" id="other_gender" name="gender"></td>
+          </tr>
+          <tr>
+            <td><input type="radio" id="nothing" onClick="disable()" name="gender"></td>
+            <td><label for="nothing">Dat zeg ik liever niet</label></td>
+          </tr>
+
+          <script>
+          document.getElementById("other_gender").disabled = true;
+          function disable(){
+            document.getElementById("other_gender").disabled = true;
+          }
+          function enable(){
+            document.getElementById("other_gender").disabled = false;
+          }
+          </script>
+
+        </table>
+      </div>
+      
+      <div class="input-block">
+        <label for="date_of_birth">Geboortedatum<span>*</span></label><br>
+        <input type="date" id="birthday" name="birthday" required="required"><br>
+      </div>
+
+      <div class="submit-button">
+      <input type="submit" value="Indienen" >
+      </div>
+    </form>
+  </div>
 </body>
 </html>
-
