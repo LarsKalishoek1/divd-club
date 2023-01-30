@@ -10,6 +10,8 @@
   <meta name="author" content="DIVD.club">
 
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
 
   <meta property="og:title" content="DIVD.club">
   <meta property="og:type" content="website">
@@ -20,18 +22,21 @@
 
 </head>
 <body>
-  <div class="top-nav">
-    <a href="#C1">Home</a>
-    <a href="#news">News</a>
-    <a href="#C2">Contact</a>
-    <a href="#about">About</a>
-  </div>  
+<header>
+    <div class="topnav">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#text1">News</a></li>
+        <li><a href="#formulier">formulier </a></li>
+      </ul>
+    </div>
+  </header>
   <br /><br /><br /><br />
   <div class="img-container-block">
     <img src="DIVD.club.logo.png"  alt="DIVD.club">
   </div>
   <br><br>
-  <div class="text-block" id ="C1">
+  <div class="text-block" id ="home">
     <h2>Welkom!</h2>
     <p>Goed dat je er bent! De DIVD club is een plek waar kinderen en jongeren 
 	samen kunnen leren over computerbeveiliging, hacking, 
@@ -81,7 +86,7 @@
  <p>Zie je iets wat technisch niet in orde of niet <a href="https://internet.nl/site/divd.club/1502532/">veilig</a> genoeg is op deze website dan kun je dat <a href="https://app.zerocopter.com/nl/rd/f9afbf32-ce59-48ed-96f2-ac4410595aa4">hier</a> melden.</p>
   </div>
 
-  <div class="text-block" id="C2">
+  <div class="text-block" id="formulier">
   <h2>Aanmeldformulier</h2>
   <p>Vul hieronder jouw persoonlijke gegevens in. Met deze gegevens schrijven we je in als deelnemer van DIVD.club. 
     Verderop kun je eventueel<br> aanvullende contactgegevens van je ouder(s)/verzorger(s) invullen.</p>  
@@ -170,5 +175,11 @@
       </div>
     </form>
   </div>
+  <footer>
+  <div class="socialbox">
+    <a href="https://twitter.com/DIVDnl"><i class="fa-brands fa-twitter"></i></a>
+    <a href="https://nl.linkedin.com/company/divd-nl"></a>
+  </div>
+</footer>
 </body>
 </html>
