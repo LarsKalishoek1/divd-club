@@ -35,7 +35,6 @@
   <div class="img-container-block">
     <img src="DIVD.club.logo.png"  alt="DIVD.club">
   </div>
-  <br><br>
   <div class="text-block" id ="home">
     <h2>Welkom!</h2>
     <p>Goed dat je er bent! De DIVD club is een plek waar kinderen en jongeren 
@@ -61,7 +60,7 @@
   een veiliger internet! Klik hieronder op de inschrijfknop en hopelijk zien we je daar! <br><br>Let op; als 
   je jonger bent dan 18 moet je eerst toestemming vragen aan je ouders!</p><br>
 
-    <a href="https://docs.google.com/forms/d/10r-a-3qXBBZASK8QTo0Et9dgRSiEOttf8L1wWun_LR4" class="button2">Kom erbij!</a>
+    <a href="#formulier" class="button2">Kom erbij!</a>
   
   </div><br>
   
